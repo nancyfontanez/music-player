@@ -1,6 +1,6 @@
 /* Images created by: https://unsplash.com/@pawel_czerwinski */
 
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Spartan:400,700&display=swap");
 
 html {
   box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'League Spartan', sans-serif;
+  font-family: Spartan, sans-serif;
   font-size: 12px;
 }
 
@@ -26,8 +26,8 @@ body {
 }
 
 .img-container {
-  height: 300px;
   width: 300px;
+  height: 300px;
   position: relative;
   top: -50px;
   left: 50px;
@@ -38,7 +38,7 @@ body {
   width: 100%;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
